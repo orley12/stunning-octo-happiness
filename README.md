@@ -1,40 +1,61 @@
-# task-manager-front-end
+📝 Task Manager Frontend
 
-This template should help get you started developing with Vue 3 in Vite.
+This is the frontend application for the Task Manager API, built using Vue 3, TypeScript, and Vite. It allows users to view, create, update tasks by interacting with the NestJS-powered backend API.
 
-## Recommended IDE Setup
+🚀 Tech Stack
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Vue 3
+Vite
+TypeScript
+TailwindCSS – for utility-first styling
+Vue Router – for client-side routing
+Axios – for making HTTP requests
+Vue Toastification – for showing elegant toast notifications
 
-## Type Support for `.vue` Imports in TS
+🔧 Getting Started
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+Prerequisites
+Make sure you have Node.js and npm installed on your machine.
 
-## Customize configuration
+Installation
+Clone the repository and install dependencies:
 
-See [Vite Configuration Reference](https://vite.dev/config/).
 
-## Project Setup
-
-```sh
+git clone https://github.com/your-username/task-manager-frontend.git
+cd task-manager-frontend
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+Running the App
+Start the development server:
 npm run dev
+
+The app will be running at: http://localhost:5173
+
+🌐 API Integration
+
+This frontend connects to the Task Manager API, built with NestJS.
+
+Make sure the backend API is running locally at http://localhost:3000 (or update the base URL in the Axios instance accordingly).
+
+📁 Project Structure
+```
+src/
+├── components/         # Reusable UI components
+├── views/              # Route-level components
+├── router/             # Vue Router setup
+├── types/              # TypeScript interfaces (e.g., Task)
+├── utils/              # Axios config, helper functions
+└── App.vue             # Root component
 ```
 
-### Type-Check, Compile and Minify for Production
+🤝 Contribution & License
 
-```sh
-npm run build
-```
+This project is free to use and modify. Contributions are welcome!
 
-### Lint with [ESLint](https://eslint.org/)
+Let me know if you'd like a version with badges (build, license, etc.) or if you're planning to deploy and want a section on that too!
 
-```sh
-npm run lint
-```
-# stunning-octo-happiness
+
+
+
+
+
